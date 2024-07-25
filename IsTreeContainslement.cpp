@@ -35,7 +35,7 @@ public:
 		if (this == nullptr) 
 			return;
 	
-	    cout << getValue() << " ";
+	        cout << getValue() << " ";
 		left->printNode();
 		right->printNode();	
 	}
