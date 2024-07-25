@@ -7,6 +7,7 @@ using namespace std;
 class Node
 {
 public:
+	// Node(int value, Node* left, Node* right) : value(value), left(left), right(right)
 	Node(int value, Node* left, Node* right)
 	{
 		this->value = value;
